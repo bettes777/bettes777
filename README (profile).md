@@ -1,6 +1,6 @@
-# Hi, I'm Betty 👋
+# About me
 
-I work at the intersection of large programs, stakeholders, and technology. I have 20+ years of experience in the United Nations system, spanning program coordination, large-scale construction project management, and intergovernmental engagement.
+I work at the intersection of large programs, stakeholders, and technology. I have 20+ years of experience in the United Nations system, spanning program coordination, project management, and stakeholder engagement.
 
 These are hands-on applied AI projects. I build them to understand how AI systems work in practice: where they're reliable, where they fail, and what it takes to put guardrails around them.
 
