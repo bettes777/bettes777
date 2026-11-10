@@ -28,4 +28,4 @@ From one input, the startup's sector, three AI agents (a researcher, a funding a
 - **Evaluation and guardrails:** confidence thresholds, human review, checking answers against sources
 - **Responsible AI:** how governance frameworks such as the NIST AI Risk Management Framework translate into practical design choices
 
-*All three projects were built as course-end projects for the Post Graduate Program in Applied Agentic AI (Virginia Tech & Simplilearn).*
+*All four projects were built as course-end projects for the Post Graduate Program in Applied Agentic AI (Virginia Tech & Simplilearn).*
