@@ -7,7 +7,7 @@ These are hands-on applied AI projects. I build them to understand how AI system
 ## Projects
 
 ### [AI Content Automation with Human-in-the-Loop Approval](https://github.com/bettes777/linkedin-autogen)
-Four AI agents research, draft, review, and score LinkedIn posts for a fictional fintech brand. An n8n workflow publishes only high-confidence drafts and sends everything else to human review in Slack, with dry-run mode, error alerts, and a full run log.
+Four AI agents research, draft, review, and score LinkedIn posts for a fictional fintech brand. An automated workflow, built in n8n (a workflow automation tool similar to Zapier), publishes only high-confidence drafts and sends the rest to a person for review in Slack. It also has a test mode that never posts publicly, error alerts, and a log of every run.
 `n8n` `AutoGen` `FastAPI` `Azure OpenAI` `Slack`
 
 ### [Multi-Agent Research Assistant with Smart Source Routing](https://github.com/bettes777/agentic-rag-router-retriever)
