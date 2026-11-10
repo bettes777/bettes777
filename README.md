@@ -18,6 +18,10 @@ A Router agent decides whether each question should be answered from a PDF knowl
 Answers questions across 159 pages of AI governance and digital strategy reports (NIST, UN, UNDP) and returns the source passages behind each answer. Reviewing those sources showed that all retrieved passages came from a single report, a retrieval-balance problem that a polished answer had hidden.
 `LangChain` `FAISS` `Azure OpenAI` `Python`
 
+### [AI Advisory Team for Startup Founders](https://github.com/bettes777/Startup_Accelerator_Agents)
+From one input, the startup's sector, three AI agents (a researcher, a funding advisor, and a pitch coach) work as a team to produce a pitch deck outline. They share notes, send each other questions, and review each other's drafts, coordinated with LangGraph (a framework for building multi-step AI agent workflows). Built-in guardrails flag every unverified figure for checking, and a limit on review rounds keeps the workflow predictable: when reviewers still had concerns at the limit, the output recorded their open feedback for the founder instead of hiding it.
+`LangGraph` `Azure OpenAI` `Python` `Multi-agent systems`
+
 ## What I focus on
 
 - **Turning a business need into a working AI workflow**, from requirements through to testing
