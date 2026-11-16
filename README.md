@@ -6,8 +6,8 @@ These are hands-on applied AI projects. I build them to understand how AI system
 
 ## Projects
 
-### [AI Content Automation with Human-in-the-Loop Approval](https://github.com/bettes777/linkedin-autogen)
-Four AI agents research, draft, review, and score LinkedIn posts for a fictional fintech brand. An automated workflow, built in n8n (a workflow automation tool similar to Zapier), publishes only high-confidence drafts and sends the rest to a person for review in Slack. It also has a test mode that never posts publicly, error alerts, and a log of every run.
+### [AI Content Automation with a Human Review Gate](https://github.com/bettes777/linkedin-autogen)
+Four AI agents propose ideas, draft, review, and score LinkedIn posts for a fictional fintech brand. An automated workflow, built in n8n (a workflow automation tool similar to Zapier), is designed to publish only drafts that score above a confidence threshold and to send the rest to a person for review in Slack. It was tested end to end in dry-run mode, where every draft goes to Slack and nothing is posted publicly; live publishing has not been tested. It also has error alerts and a log of every run.
 `n8n` `AutoGen` `FastAPI` `Azure OpenAI` `Slack`
 
 ### [Multi-Agent Research Assistant with Smart Source Routing](https://github.com/bettes777/agentic-rag-router-retriever)
@@ -19,7 +19,7 @@ Answers questions across 159 pages of AI governance and digital strategy reports
 `LangChain` `FAISS` `Azure OpenAI` `Python`
 
 ### [AI Advisory Team for Startup Founders](https://github.com/bettes777/startup-accelerator-agents)
-From one input, the startup's sector, three AI agents (a researcher, a funding advisor, and a pitch coach) work as a team to produce a pitch deck outline. They share notes, send each other questions, and review each other's drafts, coordinated with LangGraph (a framework for building multi-step AI agent workflows). Built-in guardrails flag every unverified figure for checking, and a limit on review rounds keeps the workflow predictable: when reviewers still had concerns at the limit, the output recorded their open feedback for the founder instead of hiding it.
+From one input, the startup's sector, three AI agents (a researcher, a funding advisor, and a pitch coach) work as a team to produce a pitch deck outline. They share notes through a common memory, send each other questions, and review each other's drafts, coordinated with LangGraph (a framework for building multi-step AI agent workflows). The agents are instructed to label every unverified figure for checking, which held in the demo run (run without web search, so all figures came from the model and were labelled). A limit on review rounds keeps the workflow predictable: when reviewers still had concerns at the limit, the output recorded their open feedback for the founder instead of hiding it.
 `LangGraph` `Azure OpenAI` `Python` `Multi-agent systems`
 
 ## What I focus on
