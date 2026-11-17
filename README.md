@@ -1,4 +1,4 @@
-## From large programs to applied AI
+# About me
 I work where large programs, people, and technology meet, with 20+ years of experience in the United Nations system spanning program coordination, project management, and stakeholder engagement.
 
 The projects below are hands-on applied AI projects. I build them to understand how AI systems work in practice: where they're reliable, where they fail, and what it takes to put guardrails around them.
